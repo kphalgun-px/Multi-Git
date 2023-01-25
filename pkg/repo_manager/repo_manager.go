@@ -17,7 +17,7 @@ func NewRepoManager(baseDir string, repoNames []string, ignoreErrors bool) (repo
 	_, err = os.Stat(baseDir)
 	if err != nil {
 		if os.IsNotExist(err) {
-			err = fmt.Errorf("base dir: '%s' doesn't exist", baseDir)
+			err = fmt.Errorf("base dir: '%s' does not exist", baseDir)
 		}
 		return
 	}
@@ -27,7 +27,7 @@ func NewRepoManager(baseDir string, repoNames []string, ignoreErrors bool) (repo
 	}
 
 	if len(repoNames) == 0 {
-		err = errors.New("repo list can't be empty")
+		err = errors.New("repo list cannot be empty")
 		return
 	}
 
