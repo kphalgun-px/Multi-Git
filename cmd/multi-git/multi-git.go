@@ -4,10 +4,11 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"multi-git/pkg/repo_manager"
 	"os"
 	"path"
 	"strings"
+
+	"github.com/kphalgun/multi-git/pkg/repo_manager"
 )
 
 func main() {

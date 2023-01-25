@@ -1,4 +1,4 @@
-module multi-git
+module github.com/kphalgun/multi-git
 
 go 1.19
 

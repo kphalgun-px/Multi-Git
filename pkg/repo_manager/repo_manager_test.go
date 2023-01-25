@@ -2,11 +2,12 @@ package repo_manager_test
 
 import (
 	"fmt"
-	. "multi-git/pkg/helpers"
-	. "multi-git/pkg/repo_manager"
 	"os"
 	"path"
 	"strings"
+
+	. "github.com/kphalgun/multi-git/pkg/helpers"
+	. "github.com/kphalgun/multi-git/pkg/repo_manager"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

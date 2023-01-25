@@ -2,9 +2,10 @@ package e2e_tests_test
 
 import (
 	"fmt"
-	. "multi-git/pkg/helpers"
 	"os"
 	"strings"
+
+	. "github.com/kphalgun/multi-git/pkg/helpers"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
