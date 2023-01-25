@@ -37,7 +37,7 @@ func NewRepoManager(baseDir string, repoNames []string, ignoreErrors bool) (repo
 
 	for _, r := range repoNames {
 		if r == "" {
-			err = errors.New("repo name can't be empty")
+			err = errors.New("repo name cannot be empty")
 			return
 		}
 		path := baseDir + r
